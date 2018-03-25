@@ -1,0 +1,250 @@
+            #headline {
+                width: 635px; 
+				height: 30px;
+                background-color: #ffffff;
+                padding: 15px 0px 15px 0px;
+                font-family: 'Glegoo', serif;
+                line-height: 22px;
+				border: solid 5px black;
+				margin-top: 20px;
+				
+                }
+            h2 {
+                font-family: 'Glegoo', serif;
+                font-size: 16px;
+                font-weight: bold;
+                color: black;
+                }
+                
+            h3 {   
+                font-family: 'Glegoo', serif; 
+                font-size: 16px;
+                text-shadow: 2px 2px 2px #aaa;
+                }
+
+            h1 {
+                font-family: 'Glegoo', serif;
+                margin: 0px 0px 0px 0px;
+                font-weight: normal;
+                font-size: 48px;
+                color: #000000;
+                text-shadow: 4px 4px 4px #aaa;
+                }
+
+            #navigation {
+                width: 640px;
+                        }
+            #navigation ul {
+                float: center;
+                        }
+
+            #navigation ul li {
+                display: inline;
+                list-style: none;
+                background-color: none;
+                text-decoration: none;
+                margin: 5px 5px 5px 5px;
+                padding: 10px;
+                        }
+
+            #navigation a {
+                text-decoration: none;
+                color: black;
+				border: 2px solid black;
+				padding: 3px;
+				border-radius: 5px;
+                        }
+
+            #navigation a:hover {
+                background-color: white;
+                color: black;
+                        }
+            
+			body {
+				background-image: url("images/sky.jpg");
+				background-attachment: fixed;
+				
+			}
+			
+		
+            #content {
+                width: 620px;
+                height: 900px;
+                background-color: white;
+				background: rgb(54, 25, 25); 
+				background: rgba(54, 25, 25, .5);
+                padding: 10px 10px 10px 10px;
+                font-family: Arial, Helvetica, sans-serif;
+                border: 5px solid black;
+				position: relative; 
+								
+            }
+            #photo1 {
+                padding: 20px 20px 20px 20px;
+                width: 270px;
+                left: 20px;
+				position: absolute;
+            }
+             #photo2 {
+                padding: 20px 20px 20px 20px;
+                width: 270px;
+                right: 20px;
+				position: absolute;
+            }
+			
+			#card_content {
+				/* This centers the card in the window :) */
+				position: relative;
+				margin-left:auto;
+				margin-right:auto;
+				border: solid 5px #1b2f39;
+				height:550px;
+				width:610px;
+				background-image: url("images/ant.jpg");
+			}
+           
+            #ground {
+                position: absolute;
+				right: 0px;
+				bottom: 0px;
+				margin-bottom: -10px;
+                
+                    }
+			#monster {
+                position: absolute;
+                right: 50px;
+                bottom: 15px;
+                z-index:9;
+				
+             }
+			
+			
+			#christmas_text {
+				font-family: 'Pacifico', cursive;
+                font-size: 100px;
+                font-weight: none;
+                color: goldenrod;
+				line-height: 100px;
+				text-shadow: 4px 4px 4px #000000;
+			}
+			
+			#merry_text {
+				font-family: 'Pacifico', cursive;
+                font-size: 75px;
+                font-weight: none;
+                color: gold;
+				line-height: 100px;
+				text-shadow: 4px 4px 4px #000000;	
+			
+			}
+            
+            
+            a:link {
+                color: lightseagreen;
+                background-color: transparent;
+                text-decoration: none;
+            }
+            a:visited {
+                color: purple;
+                backgroud-color: aqua;
+                text-decoration: none;
+            }
+            a:hover {
+                color: red;
+                background-color:transparent;
+                text-decoration: underline;
+            }
+            a:active {
+                color: white;
+                background-color: orangered;
+                text-decoration: none;
+            }
+            
+			
+			#aboutme {
+				background-color: white;
+				border: solid 5px black;
+				width: 600px;
+				height: 700px;
+				padding: 20px;
+				
+			}
+			#About_Me {
+				font-family: 'Glegoo', serif; 
+                font-size: 24px;
+                text-shadow: 2px 2px 2px #aaa;
+				padding-left: 200px;
+				padding-right: 200px;
+				margin: 20px;
+				background-color: #ffb6dc;
+				
+				float: top;
+			}
+			#portrait {
+				float: right;
+				margin-right: 20px;
+				
+				margin-bottom: 20px;
+				margin-left: 10px;
+			}
+			
+			#childhood {
+				float: right;
+				margin-right: 20px;
+				
+				margin-bottom: 20px;
+				margin-left: 10px;
+			}
+			
+			#sierra {
+				float: right;
+				margin-right: 20px;
+				
+				margin-bottom: 20px;
+				margin-left: 10px;
+			}
+			
+			#bio{
+				border: 3px solid black;
+				float: left;
+				width: 275px;
+				height: 710px;
+				margin-left: 20px;
+				padding: 10px;
+				background-color: white;
+			}
+			
+			#portfolio_link {
+				border: 3px solid black;
+				float: left;
+				width: 290px;
+				height: 20px;
+				margin-left: 20px;
+				margin-top: 20px;
+				padding: 3px;
+				background-color: #f6f7c9;
+			}
+			
+			p {
+				font-size: 14px;
+				font-family: 'Glegoo', serif;
+			}
+			
+			#Portfolio{
+				background-color: white;
+				border: solid 5px black;
+				width: 600px;
+				height: 650px;
+				padding: 20px;
+			}
+			#scroll {
+				
+				border: 5px solid black;
+				margin: auto;
+				width: 550px;
+				height: 500px;
+				padding: 10px;
+				background-color: #c2fffd;
+				overflow: scroll;
+				
+			}
